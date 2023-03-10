@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Lab 2</title>
+		<script src="https://d3js.org/d3.v6.min.js"></script>
+	</head>
+	<body style="display: flex; flex-direction: column">
+		<h3 style="color: blue">Pham Cong Tuan</h3>
+		<h4 style="font-weight: bold">ITITIU19060</h4>
+		<h4 style="font-weight: bold">Data science and data visualization</h4>
+		<h4 style="font-style: italic">Lab 2 – Introduction to D3.js</h4>
+		<p>
+			This is all my own work. I did not copy the code from any other
+			source
+		</p>
+
+		<svg
+			width="500"
+			height="200"
+		></svg>
+
+		<script type="text/javascript">
+			const data = [];
+			for (let i = 0; i < 10; i++) {
+				data.push(Math.random() * 100);
+				data.push();
+			}
+
+			const svg = d3.select("svg");
+
+			const rects = svg
+				.selectAll("rect")
+				.data(data)
+				.enter()
+				.append("rect");
+
+			rects
+				.attr("x", (d, i) => i * 70)
+				.attr("y", (d) => 200 - d)
+				.attr("width", 50)
+				.attr("height", (d) => d)
+				.style("fill", "blue");
+		</script>
+	</body>
+</html>
