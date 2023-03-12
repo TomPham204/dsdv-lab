@@ -16,31 +16,98 @@
 		</p>
 
 		<svg
+			id="c1"
 			width="500"
-			height="200"
+			height="300"
+		></svg>
+
+		<svg
+			id="c2"
+			width="500"
+			height="300"
 		></svg>
 
 		<script type="text/javascript">
+			function draw(dest, data, label) {
+				const margin = { top: 20, right: 20, bottom: 30, left: 50 };
+				const width = 460 - margin.left - margin.right;
+				const height = 400 - margin.top - margin.bottom;
+
+				const svg = d3
+					.select(dest)
+					.attr("width", width + margin.left + margin.right)
+					.attr("height", height + margin.top + margin.bottom);
+
+				const g = svg
+					.append("g")
+					.attr(
+						"transform",
+						"translate(" + margin.left + "," + margin.top + ")"
+					);
+
+				const x = d3.scaleBand().range([0, width]).padding(0.1);
+
+				const y = d3.scaleLinear().range([height, 0]);
+
+				const xAxis = d3.axisBottom(x);
+
+				const yAxis = d3.axisLeft(y).ticks(5);
+
+				x.domain(
+					data.map(function (d, i) {
+						if (label) return label[i];
+						else return i;
+					})
+				);
+				y.domain([0, d3.max(data)]);
+
+				g.append("g")
+					.attr("class", "x-axis")
+					.attr("transform", "translate(0," + height + ")")
+					.call(xAxis);
+
+				g.append("g")
+					.attr("class", "y-axis")
+					.call(yAxis)
+					.append("text")
+					.attr("y", -40)
+					.attr("x", -50)
+					.attr("text-anchor", "end")
+					.attr("stroke", "black")
+					.text("Column Title");
+
+				g.selectAll(".bar")
+					.data(data)
+					.enter()
+					.append("rect")
+					.attr("class", "bar")
+					.attr("x", function (d, i) {
+						return x(i);
+					})
+					.attr("y", function (d) {
+						return y(d);
+					})
+					.attr("width", x.bandwidth())
+					.attr("height", function (d) {
+						return height - y(d);
+					});
+			}
+
 			const data = [];
 			for (let i = 0; i < 10; i++) {
 				data.push(Math.random() * 100);
-				data.push();
 			}
+			draw("#c1", data);
 
-			const svg = d3.select("svg");
-
-			const rects = svg
-				.selectAll("rect")
-				.data(data)
-				.enter()
-				.append("rect");
-
-			rects
-				.attr("x", (d, i) => i * 70)
-				.attr("y", (d) => 200 - d)
-				.attr("width", 50)
-				.attr("height", (d) => d)
-				.style("fill", "blue");
+			// ---------------------
+			d3.csv(
+				"https://tungth.github.io/data/vis-lab2-data.csv",
+				(data) => {
+					return data.Lab;
+				}
+			).then((data) => {
+				draw("#c2", data);
+			});
 		</script>
 	</body>
 </html>
