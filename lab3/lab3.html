@@ -12,8 +12,27 @@
 		/>
 		<title>Lab 3</title>
 		<script src="https://d3js.org/d3.v7.min.js"></script>
+		<style>
+			svg {
+				border: 1px solid black;
+			}
+		</style>
+	</head>
+	<body style="display: flex; flex-direction: column; gap: 4px">
+		<h3 style="color: blue">Pham Cong Tuan</h3>
+		<h4 style="font-weight: bold">ITITIU19060</h4>
+		<h4 style="font-weight: bold">Data science and data visualization</h4>
+		<h4 style="font-style: italic">Lab 3</h4>
+		<p>
+			This is all my own work. I did not copy the code from any other
+			source
+		</p>
+		<div
+			id="scatterPlot"
+			style="width: 300px; height: 600px"
+		></div>
 		<script>
-			var margin = { top: 10, right: 10, bottom: 10, left: 10 },
+			var margin = { top: 20, right: 30, bottom: 30, left: 30 },
 				width = 300 - margin.left - margin.right,
 				height = 600 - margin.top - margin.bottom;
 
@@ -79,28 +98,11 @@
 						.attr("cy", function (d) {
 							return y(d["GRDP-VND"]);
 						})
-						.attr("r", 5)
+						.attr("r", function (d) {
+							return d.area / 1000;
+						})
 						.style("fill", "#69b3a2");
 				});
 		</script>
-		<style>
-			svg {
-				border: 1px solid black;
-			}
-		</style>
-	</head>
-	<body style="display: flex; flex-direction: column; gap: 4px">
-		<h3 style="color: blue">Pham Cong Tuan</h3>
-		<h4 style="font-weight: bold">ITITIU19060</h4>
-		<h4 style="font-weight: bold">Data science and data visualization</h4>
-		<h4 style="font-style: italic">Lab 3</h4>
-		<p>
-			This is all my own work. I did not copy the code from any other
-			source
-		</p>
-		<div
-			id="scatterPlot"
-			style="width: 300px; height: 600px"
-		></div>
 	</body>
 </html>
