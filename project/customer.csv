@@ -1,0 +1,694 @@
+CustomerKey,First Name,Last Name,Full Name,Gender,DateFirstPurchase,Customer City
+11000,Jon,Yang,Jon Yang,Male,2018,Rockhampton
+11001,Eugene,Huang,Eugene Huang,Male,2018,Seaford
+11002,Ruben,Torres,Ruben Torres,Male,2018,Hobart
+11003,Christy,Zhu,Christy Zhu,Female,2017,North Ryde
+11004,Elizabeth,Johnson,Elizabeth Johnson,Female,2018,Wollongong
+11005,Julio,Ruiz,Julio Ruiz,Male,2017,East Brisbane
+11006,Janet,Alvarez,Janet Alvarez,Female,2018,Matraville
+11007,Marco,Mehta,Marco Mehta,Male,2018,Warrnambool
+11008,Rob,Verhoff,Rob Verhoff,Female,2018,Bendigo
+11009,Shannon,Carlson,Shannon Carlson,Male,2018,Hervey Bay
+11010,Jacquelyn,Suarez,Jacquelyn Suarez,Female,2018,East Brisbane
+11011,Curtis,Lu,Curtis Lu,Male,2017,East Brisbane
+11012,Lauren,Walker,Lauren Walker,Female,2020,Bremerton
+11013,Ian,Jenkins,Ian Jenkins,Male,2020,Lebanon
+11014,Sydney,Bennett,Sydney Bennett,Female,2020,Redmond
+11015,Chloe,Young,Chloe Young,Female,2020,Burbank
+11016,Wyatt,Hill,Wyatt Hill,Male,2020,Imperial Beach
+11017,Shannon,Wang,Shannon Wang,Female,2018,Sunbury
+11018,Clarence,Rai,Clarence Rai,Male,2018,Bendigo
+11019,Luke,Lal,Luke Lal,Male,2020,Langley
+11020,Jordan,King,Jordan King,Male,2019,Metchosin
+11021,Destiny,Wilson,Destiny Wilson,Female,2020,Beaverton
+11022,Ethan,Zhang,Ethan Zhang,Male,2020,Bellingham
+11023,Seth,Edwards,Seth Edwards,Male,2020,Bellflower
+11024,Russell,Xie,Russell Xie,Male,2020,Concord
+11025,Alejandro,Beck,Alejandro Beck,Male,2018,Hawthorne
+11026,Harold,Sai,Harold Sai,Male,2018,Goulburn
+11027,Jessie,Zhao,Jessie Zhao,Male,2018,Warrnambool
+11028,Jill,Jimenez,Jill Jimenez,Female,2018,St. Leonards
+11029,Jimmy,Moreno,Jimmy Moreno,Male,2018,Bendigo
+11030,Bethany,Yuan,Bethany Yuan,Female,2018,Cloverdale
+11031,Theresa,Ramos,Theresa Ramos,Female,2018,Matraville
+11032,Denise,Stone,Denise Stone,Female,2018,Melbourne
+11033,Jaime,Nath,Jaime Nath,Male,2018,Milsons Point
+11034,Ebony,Gonzalez,Ebony Gonzalez,Female,2018,North Sydney
+11035,Wendy,Dominguez,Wendy Dominguez,Female,2018,Cranbourne
+11036,Jennifer,Russell,Jennifer Russell,Female,2020,National City
+11037,Chloe,Garcia,Chloe Garcia,Female,2020,Cliffside
+11038,Diana,Hernandez,Diana Hernandez,Female,2018,Lavender Bay
+11039,Marc,Martin,Marc Martin,Male,2018,Wollongong
+11040,Jesse,Murphy,Jesse Murphy,Male,2020,Tacoma
+11041,Amanda,Carter,Amanda Carter,Female,2020,Glendale
+11042,Megan,Sanchez,Megan Sanchez,Female,2020,Los Angeles
+11043,Nathan,Simmons,Nathan Simmons,Male,2020,Glendale
+11044,Adam,Flores,Adam Flores,Male,2018,Hervey Bay
+11045,Leonard,Nara,Leonard Nara,Male,2020,Matraville
+11046,Christine,Yuan,Christine Yuan,Female,2018,Lavender Bay
+11047,Jaclyn,Lu,Jaclyn Lu,Female,2018,Geelong
+11048,Jeremy,Powell,Jeremy Powell,Male,2018,Sunbury
+11049,Carol,Rai,Carol Rai,Female,2020,Chula Vista
+11050,Alan,Zheng,Alan Zheng,Male,2018,Hobart
+11051,Daniel,Johnson,Daniel Johnson,Male,2020,Caloundra
+11052,Heidi,Lopez,Heidi Lopez,Female,2018,Matraville
+11053,Ana,Price,Ana Price,Female,2020,San Diego
+11054,Deanna,Munoz,Deanna Munoz,Female,2018,Geelong
+11055,Gilbert,Raje,Gilbert Raje,Male,2018,East Brisbane
+11056,Michele,Nath,Michele Nath,Female,2018,Newcastle
+11057,Carl,Andersen,Carl Andersen,Male,2018,Lane Cove
+11058,Marc,Diaz,Marc Diaz,Male,2018,Findon
+11059,Ashlee,Andersen,Ashlee Andersen,Female,2020,Townsville
+11060,Jon,Zhou,Jon Zhou,Male,2018,Warrnambool
+11061,Todd,Gao,Todd Gao,Male,2018,Gold Coast
+11062,Noah,Powell,Noah Powell,Male,2020,Portland
+11063,Angela,Murphy,Angela Murphy,Female,2020,Redmond
+11064,Chase,Reed,Chase Reed,Male,2020,Downey
+11065,Jessica,Henderson,Jessica Henderson,Female,2020,La Jolla
+11066,Grace,Butler,Grace Butler,Female,2020,Lebanon
+11067,Caleb,Carter,Caleb Carter,Male,2020,Port Orchard
+11068,Tiffany,Liang,Tiffany Liang,Female,2020,Warrnambool
+11069,Carolyn,Navarro,Carolyn Navarro,Female,2018,Gold Coast
+11070,Willie,Raji,Willie Raji,Male,2018,Sunbury
+11071,Linda,Serrano,Linda Serrano,Female,2020,Hawthorne
+11072,Casey,Luo,Casey Luo,Female,2018,St. Leonards
+11073,Amy,Ye,Amy Ye,Female,2020,Springwood
+11074,Levi,Arun,Levi Arun,Male,2020,Cloverdale
+11075,Felicia,Jimenez,Felicia Jimenez,Female,2018,Bendigo
+11076,Blake,Anderson,Blake Anderson,Male,2018,Wollongong
+11077,Leah,Ye,Leah Ye,Female,2018,Melton
+11078,Gina,Martin,Gina Martin,Female,2020,Cliffside
+11079,Donald,Gonzalez,Donald Gonzalez,Male,2020,Geelong
+11080,Damien,Chander,Damien Chander,Male,2018,Perth
+11081,Savannah,Baker,Savannah Baker,Female,2020,Concord
+11082,Angela,Butler,Angela Butler,Female,2020,Fremont
+11083,Alyssa,Cox,Alyssa Cox,Female,2020,Lincoln Acres
+11084,Lucas,Phillips,Lucas Phillips,Male,2020,Lebanon
+11085,Emily,Johnson,Emily Johnson,Female,2020,Newport Beach
+11086,Ryan,Brown,Ryan Brown,Male,2020,Santa Monica
+11087,Tamara,Liang,Tamara Liang,Female,2020,Chula Vista
+11088,Hunter,Davis,Hunter Davis,Male,2020,San Diego
+11089,Abigail,Price,Abigail Price,Female,2019,Long Beach
+11090,Trevor,Bryant,Trevor Bryant,Male,2018,Los Angeles
+11091,Dalton,Perez,Dalton Perez,Male,2020,Haney
+11092,Cheryl,Diaz,Cheryl Diaz,Female,2018,East Brisbane
+11093,Aimee,He,Aimee He,Female,2018,Wollongong
+11094,Cedric,Ma,Cedric Ma,Male,2020,Cranbourne
+11095,Chad,Kumar,Chad Kumar,Male,2018,Port Macquarie
+11096,Andrés,Anand,Andrés Anand,Male,2018,North Sydney
+11097,Edwin,Nara,Edwin Nara,Male,2018,Warrnambool
+11098,Mallory,Rubio,Mallory Rubio,Female,2020,Rhodes
+11099,Adam,Ross,Adam Ross,Male,2018,Port Macquarie
+11100,Latasha,Navarro,Latasha Navarro,Female,2018,Cloverdale
+11101,Abby,Sai,Abby Sai,Female,2018,Cranbourne
+11102,Julia,Nelson,Julia Nelson,Female,2020,Sydney
+11103,Cassie,Chande,Cassie Chande,Female,2018,Darlinghurst
+11104,Edgar,Sara,Edgar Sara,Male,2018,Gold Coast
+11105,Candace,Fernandez,Candace Fernandez,Female,2018,Matraville
+11106,Jessie,Liu,Jessie Liu,Male,2018,Warrnambool
+11107,Bianca,Lin,Bianca Lin,Female,2018,St. Leonards
+11108,Kari,Alvarez,Kari Alvarez,Female,2018,Port Macquarie
+11109,Ruben,Kapoor,Ruben Kapoor,Male,2018,South Melbourne
+11110,Curtis,Yang,Curtis Yang,Male,2018,Darlinghurst
+11111,Meredith,Gutierrez,Meredith Gutierrez,Female,2018,Geelong
+11112,Crystal,Wang,Crystal Wang,Female,2018,Hervey Bay
+11113,Micheal,Blanco,Micheal Blanco,Male,2020,Perth
+11114,Leslie,Moreno,Leslie Moreno,Female,2020,Rhodes
+11115,Alvin,Cai,Alvin Cai,Male,2020,St. Leonards
+11116,Clinton,Carlson,Clinton Carlson,Male,2020,Sydney
+11117,April,Deng,April Deng,Female,2018,Matraville
+11118,Alvin,Zeng,Alvin Zeng,Male,2020,Lavender Bay
+11119,Evan,James,Evan James,Male,2020,Port Macquarie
+11120,Beth,Jiménez,Beth Jiménez,Female,2018,Sydney
+11121,Orlando,Suarez,Orlando Suarez,Male,2020,Newcastle
+11122,Byron,Vazquez,Byron Vazquez,Male,2020,North Sydney
+11123,Philip,Alvarez,Philip Alvarez,Male,2020,Sunbury
+11124,Ross,Jordan,Ross Jordan,Male,2018,Warrnambool
+11125,Dana,Navarro,Dana Navarro,Female,2020,Seaford
+11126,Shaun,Carson,Shaun Carson,Male,2018,North Ryde
+11127,Jan,Edwards,Jan Edwards,Female,2020,San Gabriel
+11128,Samantha,Long,Samantha Long,Female,2020,Renton
+11129,Julia,Wright,Julia Wright,Female,2018,Sedro Woolley
+11130,Caroline,Russell,Caroline Russell,Female,2020,Lebanon
+11131,Amanda,Rivera,Amanda Rivera,Female,2020,Haney
+11132,Melissa,Richardson,Melissa Richardson,Female,2020,Langford
+11133,Angela,Griffin,Angela Griffin,Female,2020,Lake Oswego
+11134,Larry,Townsend,Larry Townsend,Male,2018,Perth
+11135,Marcus,Harris,Marcus Harris,Male,2020,Burlingame
+11136,Brianna,Morgan,Brianna Morgan,Female,2020,Metchosin
+11137,Jasmine,Taylor,Jasmine Taylor,Female,2020,Spokane
+11138,Lauren,Davis,Lauren Davis,Female,2020,Glendale
+11139,Tanya,Moreno,Tanya Moreno,Female,2020,Cloverdale
+11140,Javier,Alvarez,Javier Alvarez,Male,2020,Burbank
+11141,Nicole,Ramirez,Nicole Ramirez,Female,2020,Daly City
+11142,Eduardo,Patterson,Eduardo Patterson,Male,2020,Langford
+11143,Jonathan,Henderson,Jonathan Henderson,Male,2020,Lakewood
+11144,Edward,Hernandez,Edward Hernandez,Male,2020,Ballard
+11145,Jasmine,Coleman,Jasmine Coleman,Female,2020,Beaverton
+11146,Karla,Goel,Karla Goel,Female,2020,Matraville
+11147,Ernest,Wu,Ernest Wu,Male,2018,Warrnambool
+11148,Ross,Vazquez,Ross Vazquez,Male,2020,East Brisbane
+11149,Theodore,Gill,Theodore Gill,Male,2020,Hervey Bay
+11150,Russell,Shen,Russell Shen,Male,2020,Sunbury
+11151,Melinda,Gill,Melinda Gill,Female,2018,Sydney
+11152,James,Williams,James Williams,Male,2020,Puyallup
+11153,Angela,James,Angela James,Female,2020,Renton
+11154,Megan,Walker,Megan Walker,Female,2020,Woodburn
+11155,Hunter,Robinson,Hunter Robinson,Male,2020,Burbank
+11156,Maria,Roberts,Maria Roberts,Female,2020,Lakewood
+11157,Hannah,Long,Hannah Long,Female,2020,Tacoma
+11158,Jason,Wright,Jason Wright,Male,2020,San Gabriel
+11159,Brianna,Hughes,Brianna Hughes,Female,2020,Woodland Hills
+11160,Maurice,Tang,Maurice Tang,Male,2020,Concord
+11161,Emily,Wood,Emily Wood,Female,2020,Concord
+11162,Chase,Cox,Chase Cox,Male,2020,La Jolla
+11163,Gabriel,Wang,Gabriel Wang,Male,2020,Spring Valley
+11164,Devin,Brooks,Devin Brooks,Male,2020,Torrance
+11165,Jocelyn,Alexander,Jocelyn Alexander,Female,2020,Oakland
+11166,Ashley,Martinez,Ashley Martinez,Female,2020,Olympia
+11167,Jasmine,Barnes,Jasmine Barnes,Female,2020,Issaquah
+11168,David,Rodriguez,David Rodriguez,Male,2020,Oakland
+11169,Bryce,Richardson,Bryce Richardson,Male,2020,Coronado
+11170,Carol,Howard,Carol Howard,Female,2020,Burien
+11171,Jonathan,Hill,Jonathan Hill,Male,2018,Woodland Hills
+11172,Gabrielle,Adams,Gabrielle Adams,Female,2020,Lynnwood
+11173,Sarah,Thomas,Sarah Thomas,Female,2020,W. Linn
+11174,Nicholas,Robinson,Nicholas Robinson,Male,2020,Los Angeles
+11175,Luis,Wang,Luis Wang,Male,2018,Beverly Hills
+11176,Mason,Roberts,Mason Roberts,Male,2020,Haney
+11177,Jose,Flores,Jose Flores,Male,2020,San Diego
+11178,Nathan,Johnson,Nathan Johnson,Male,2020,Lakewood
+11179,Molly,Rodriguez,Molly Rodriguez,Female,2020,Beverly Hills
+11180,April,Anand,April Anand,Female,2020,Chula Vista
+11181,Devin,Martin,Devin Martin,Male,2020,Los Angeles
+11182,Stephanie,Torres,Stephanie Torres,Female,2020,Sedro Woolley
+11183,Jasmine,Lee,Jasmine Lee,Female,2020,Santa Cruz
+11184,Meghan,Hernandez,Meghan Hernandez,Female,2020,Concord
+11185,Ashley,Henderson,Ashley Henderson,Female,2020,Metchosin
+11186,Sarah,Price,Sarah Price,Female,2020,Palo Alto
+11187,Jennifer,Cooper,Jennifer Cooper,Female,2020,Burien
+11188,Catherine,Morris,Catherine Morris,Female,2020,San Gabriel
+11189,Lawrence,Blanco,Lawrence Blanco,Male,2018,Bellingham
+11190,Carson,Bryant,Carson Bryant,Male,2020,Beverly Hills
+11191,Kristi,Perez,Kristi Perez,Female,2018,Colma
+11192,James,Brown,James Brown,Male,2020,Seattle
+11193,Ian,Gray,Ian Gray,Male,2020,Woodburn
+11194,Jacqueline,Price,Jacqueline Price,Female,2020,Palo Alto
+11195,Megan,Henderson,Megan Henderson,Female,2020,Renton
+11196,Alfredo,Romero,Alfredo Romero,Male,2020,Beaverton
+11197,Andrea,Morris,Andrea Morris,Female,2020,Seattle
+11198,Brooke,Sanders,Brooke Sanders,Female,2020,Santa Cruz
+11199,Jacqueline,Bennett,Jacqueline Bennett,Female,2020,Burlingame
+11200,Jason,Griffin,Jason Griffin,Male,2020,Victoria
+11201,Amanda,Foster,Amanda Foster,Female,2020,Santa Monica
+11202,Alexia,Price,Alexia Price,Female,2020,Lakewood
+11203,Luis,Diaz,Luis Diaz,Male,2020,Port Hammond
+11204,Destiny,Rivera,Destiny Rivera,Female,2020,Beaverton
+11205,Abby,Fernandez,Abby Fernandez,Female,2020,Burien
+11206,Blake,Flores,Blake Flores,Male,2020,Lynnwood
+11207,Danielle,Cox,Danielle Cox,Female,2020,Renton
+11208,Maria,Reed,Maria Reed,Female,2020,Glendale
+11209,Allison,Evans,Allison Evans,Female,2020,Lincoln Acres
+11210,Edward,Wood,Edward Wood,Male,2020,West Covina
+11211,Samantha,Russell,Samantha Russell,Female,2020,Haney
+11212,Chloe,Campbell,Chloe Campbell,Female,2020,Metchosin
+11213,Stephanie,Murphy,Stephanie Murphy,Female,2020,Edmonds
+11214,Charles,Miller,Charles Miller,Male,2020,Milwaukie
+11215,Ana,Perry,Ana Perry,Female,2020,Royal Oak
+11216,Jasmine,Torres,Jasmine Torres,Female,2018,Portland
+11217,Natalie,Adams,Natalie Adams,Female,2018,Portland
+11218,Olivia,Brown,Olivia Brown,Female,2020,Tacoma
+11219,Charles,Cook,Charles Cook,Male,2020,Woodburn
+11220,Erica,Huang,Erica Huang,Female,2020,Colma
+11221,Nathan,Perry,Nathan Perry,Male,2020,Lakewood
+11222,Alexandra,Rivera,Alexandra Rivera,Female,2020,Santa Monica
+11223,Hailey,Patterson,Hailey Patterson,Female,2020,Langley
+11224,Tiffany,Li,Tiffany Li,Female,2018,Burien
+11225,Madison,Lee,Madison Lee,Female,2020,Renton
+11226,Sydney,Ross,Sydney Ross,Female,2020,W. Linn
+11227,Marshall,Chavez,Marshall Chavez,Male,2018,Colma
+11228,Ashley,Jones,Ashley Jones,Female,2020,El Cajon
+11229,Adrian,Stewart,Adrian Stewart,Male,2020,Redwood City
+11230,Amber,Turner,Amber Turner,Female,2020,Santa Monica
+11231,Dennis,Zhang,Dennis Zhang,Male,2020,Bremerton
+11232,Hailey,Bryant,Hailey Bryant,Female,2020,Everett
+11233,Todd,Li,Todd Li,Male,2020,Berkeley
+11234,Anna,Griffin,Anna Griffin,Female,2020,Long Beach
+11235,Angel,Stewart,Angel Stewart,Male,2020,Ballard
+11236,Jeremy,Butler,Jeremy Butler,Male,2020,Bellingham
+11237,Clarence,Anand,Clarence Anand,Male,2018,Solingen
+11238,Mayra,Prasad,Mayra Prasad,Female,2018,Birmingham
+11239,Latoya,Goel,Latoya Goel,Female,2018,London
+11240,Anne,Hernandez,Anne Hernandez,Female,2018,Watford
+11241,Lisa,Cai,Lisa Cai,Female,2019,Les Ulis
+11242,Larry,Munoz,Larry Munoz,Male,2019,Versailles
+11243,Robin,Alvarez,Robin Alvarez,Female,2018,Esher-Molesey
+11244,Alexis,Coleman,Alexis Coleman,Female,2018,Runcorn
+11245,Ricky,Vazquez,Ricky Vazquez,Male,2018,Hamburg
+11246,Latasha,Rubio,Latasha Rubio,Female,2018,Hamburg
+11247,Claudia,Zhou,Claudia Zhou,Female,2018,Lancaster
+11248,Tristan,Alexander,Tristan Alexander,Male,2020,Saint-Denis
+11249,Cindy,Patel,Cindy Patel,Female,2018,Sulzbach Taunus
+11250,Shannon,Liu,Shannon Liu,Female,2018,Woolston
+11251,Xavier,Long,Xavier Long,Male,2020,Haney
+11252,Nicholas,Thompson,Nicholas Thompson,Male,2018,Lemon Grove
+11253,José,Hernandez,José Hernandez,Male,2020,Victoria
+11254,Johnathan,Vance,Johnathan Vance,Male,2020,Burien
+11255,Colin,Lin,Colin Lin,Male,2020,Burien
+11256,Katelyn,Hernandez,Katelyn Hernandez,Female,2020,Lynnwood
+11257,Jacqueline,Powell,Jacqueline Powell,Female,2018,Newport Beach
+11258,Xavier,Hill,Xavier Hill,Male,2020,Palo Alto
+11259,Victoria,Stewart,Victoria Stewart,Female,2018,Salem
+11260,Katelyn,Kelly,Katelyn Kelly,Female,2020,Burlingame
+11261,Stephanie,Collins,Stephanie Collins,Female,2018,San Diego
+11262,Jennifer,Simmons,Jennifer Simmons,Female,2020,Port Hammond
+11263,Trinity,Richardson,Trinity Richardson,Female,2018,Burien
+11264,Eduardo,Martin,Eduardo Martin,Male,2020,Issaquah
+11265,Elizabeth,Jones,Elizabeth Jones,Female,2020,Kirkland
+11266,Taylor,Howard,Taylor Howard,Female,2018,Port Orchard
+11267,David,Diaz,David Diaz,Male,2018,Burlingame
+11268,Katelyn,Carter,Katelyn Carter,Female,2020,Coronado
+11269,Ryan,Foster,Ryan Foster,Male,2020,Daly City
+11270,Robert,Lee,Robert Lee,Male,2018,Lakewood
+11271,Danielle,Reed,Danielle Reed,Female,2018,San Francisco
+11272,Lauren,Martinez,Lauren Martinez,Female,2018,Beverly Hills
+11273,Nathan,Lal,Nathan Lal,Male,2020,La Jolla
+11274,Kyle,Foster,Kyle Foster,Male,2018,Bellingham
+11275,Jenny,Rai,Jenny Rai,Female,2018,Colma
+11276,Nancy,Chapman,Nancy Chapman,Female,2020,Cliffside
+11277,Charles,Jackson,Charles Jackson,Male,2020,Royal Oak
+11278,Jonathan,Phillips,Jonathan Phillips,Male,2018,Edmonds
+11279,Amanda,Cook,Amanda Cook,Female,2020,Everett
+11280,Robert,Collins,Robert Collins,Male,2020,Lynnwood
+11281,Megan,Barnes,Megan Barnes,Female,2018,Burbank
+11282,Christian,Thomas,Christian Thomas,Male,2018,Burien
+11283,Arturo,Lal,Arturo Lal,Male,2020,Berkeley
+11284,Theresa,Serrano,Theresa Serrano,Female,2020,Chula Vista
+11285,Jeremy,Anderson,Jeremy Anderson,Male,2020,Fremont
+11286,Hunter,Griffin,Hunter Griffin,Male,2018,Torrance
+11287,Henry,Garcia,Henry Garcia,Male,2020,Cliffside
+11288,Cindy,Sanchez,Cindy Sanchez,Female,2020,Burbank
+11289,Maria,Carter,Maria Carter,Female,2018,Downey
+11290,Katelyn,Sanchez,Katelyn Sanchez,Female,2018,Lakewood
+11291,Jenna,Wright,Jenna Wright,Female,2018,Lemon Grove
+11292,Seth,Phillips,Seth Phillips,Male,2018,San Gabriel
+11293,Luke,Long,Luke Long,Male,2020,Port Orchard
+11294,Dalton,Clark,Dalton Clark,Male,2020,Issaquah
+11295,Taylor,Lewis,Taylor Lewis,Female,2018,Concord
+11296,Haley,Richardson,Haley Richardson,Female,2018,Everett
+11297,Noah,Coleman,Noah Coleman,Male,2018,Burbank
+11298,Jon,Luo,Jon Luo,Male,2018,Chula Vista
+11299,Orlando,Vazquez,Orlando Vazquez,Male,2018,Burbank
+11300,Fernando,Barnes,Fernando Barnes,Male,2020,N. Vancouver
+11301,Cameron,Rodriguez,Cameron Rodriguez,Male,2020,Ballard
+11302,Spencer,Russell,Spencer Russell,Male,2018,Corvallis
+11303,Julia,Coleman,Julia Coleman,Female,2018,Edmonds
+11304,Julia,Garcia,Julia Garcia,Female,2020,Portland
+11305,Sean,Evans,Sean Evans,Male,2020,Chula Vista
+11306,Micah,Zhou,Micah Zhou,Male,2020,Coronado
+11307,Hunter,Rodriguez,Hunter Rodriguez,Male,2018,Daly City
+11308,Ian,Gonzales,Ian Gonzales,Male,2020,Oregon City
+11309,Victoria,Lewis,Victoria Lewis,Female,2020,Beaverton
+11310,Erin,Sanders,Erin Sanders,Female,2020,San Francisco
+11311,Gabrielle,Lopez,Gabrielle Lopez,Female,2020,Lynnwood
+11312,Sara,Richardson,Sara Richardson,Female,2020,Lynnwood
+11313,Trevor,Jenkins,Trevor Jenkins,Male,2020,Port Orchard
+11314,Mya,Flores,Mya Flores,Female,2020,Issaquah
+11315,Hailey,Ward,Hailey Ward,Female,2020,Port Orchard
+11316,Luke,Allen,Luke Allen,Male,2020,Langford
+11317,Victoria,Russell,Victoria Russell,Female,2018,Salem
+11318,Jessica,Wilson,Jessica Wilson,Female,2020,Edmonds
+11319,Jade,Bailey,Jade Bailey,Female,2018,Oakland
+11320,Morgan,Hill,Morgan Hill,Female,2020,Glendale
+11321,Terrance,Raman,Terrance Raman,Male,2020,Burien
+11322,Sydney,Garcia,Sydney Garcia,Female,2020,Bremerton
+11323,Jose,Patterson,Jose Patterson,Male,2018,Daly City
+11324,Zachary,Anderson,Zachary Anderson,Male,2018,Glendale
+11325,Elijah,Ross,Elijah Ross,Male,2018,Seattle
+11326,Rafael,Xie,Rafael Xie,Male,2018,Beverly Hills
+11327,Jaime,Moreno,Jaime Moreno,Male,2018,Burbank
+11328,Julian,Griffin,Julian Griffin,Male,2020,Newton
+11329,Andy,Alvarez,Andy Alvarez,Male,2018,Concord
+11330,Ryan,Thompson,Ryan Thompson,Male,2020,Oak Bay
+11331,Samantha,Jenkins,Samantha Jenkins,Female,2020,Shawnee
+11332,Deanna,Ramos,Deanna Ramos,Female,2018,Berlin
+11333,Emily,Miller,Emily Miller,Female,2018,Newcastle upon Tyne
+11334,Nicole,Brown,Nicole Brown,Female,2018,Stoke-on-Trent
+11335,Carla,Raman,Carla Raman,Female,2018,Hof
+11336,Shaun,Raji,Shaun Raji,Male,2019,Paris
+11337,Jerome,Romero,Jerome Romero,Male,2018,Watford
+11338,Frank,Navarro,Frank Navarro,Male,2018,Bonn
+11339,Dennis,She,Dennis She,Male,2019,Paris
+11340,Melody,Munoz,Melody Munoz,Female,2019,Paris
+11341,Randy,Zeng,Randy Zeng,Male,2018,Cheltenham
+11342,Marshall,Wang,Marshall Wang,Male,2020,Boulogne-sur-Mer
+11343,Arthur,Carlson,Arthur Carlson,Male,2018,Oxon
+11344,Jessie,Jimenez,Jessie Jimenez,Female,2018,Oxford
+11345,Robin,Ramos,Robin Ramos,Female,2019,Tremblay-en-France
+11346,Deanna,Gutierrez,Deanna Gutierrez,Female,2019,Paris
+11347,Roy,Navarro,Roy Navarro,Male,2020,Braunschweig
+11348,Shawn,Rai,Shawn Rai,Male,2020,Paderborn
+11349,Mindy,Luo,Mindy Luo,Female,2021,München
+11350,Cara,Zhou,Cara Zhou,Female,2020,Peterborough
+11351,Anne,Ramos,Anne Ramos,Female,2018,London
+11352,Raymond,Rodriguez,Raymond Rodriguez,Male,2020,Pantin
+11353,Carrie,Ortega,Carrie Ortega,Female,2018,Warrington
+11354,Deanna,Suarez,Deanna Suarez,Female,2020,Grevenbroich
+11355,Roberto,Gutierrez,Roberto Gutierrez,Male,2020,Wokingham
+11356,Terrence,Carson,Terrence Carson,Male,2018,Lavender Bay
+11357,Ramon,Ye,Ramon Ye,Male,2018,Caloundra
+11358,Cynthia,Malhotra,Cynthia Malhotra,Female,2018,Coffs Harbour
+11359,Jarrod,Prasad,Jarrod Prasad,Male,2018,Malabar
+11360,Tyrone,Serrano,Tyrone Serrano,Male,2018,Rockhampton
+11361,Cindy,Ramos,Cindy Ramos,Female,2020,Newcastle
+11362,Damien,Shan,Damien Shan,Male,2020,Cranbourne
+11363,Julian,Ross,Julian Ross,Male,2018,Melbourne
+11364,Jennifer,Collins,Jennifer Collins,Female,2018,Geelong
+11365,Brittney,Sun,Brittney Sun,Female,2018,Findon
+11366,Virginia,Patel,Virginia Patel,Female,2020,Seaford
+11367,Calvin,Nara,Calvin Nara,Male,2020,North Sydney
+11368,Edward,Miller,Edward Miller,Male,2018,Rockhampton
+11369,Ashlee,Tang,Ashlee Tang,Female,2020,Findon
+11370,Alicia,Xu,Alicia Xu,Female,2020,South Melbourne
+11371,Lacey,Jai,Lacey Jai,Female,2020,Rockhampton
+11372,Wendy,Romero,Wendy Romero,Female,2018,Brisbane
+11373,Carly,Luo,Carly Luo,Female,2020,Salzgitter
+11374,Jimmy,Ortega,Jimmy Ortega,Male,2020,Werne
+11375,Francisco,Martinez,Francisco Martinez,Male,2020,High Wycombe
+11376,Lance,Vazquez,Lance Vazquez,Male,2020,Liverpool
+11377,David,Robinett,David Robinett,Male,2020,Solingen
+11378,Shannon,Liang,Shannon Liang,Female,2019,Metz
+11379,Gary,Vazquez,Gary Vazquez,Male,2019,Boulogne-Billancourt
+11380,Mitchell,Kumar,Mitchell Kumar,Male,2018,Saarlouis
+11381,Meredith,Raman,Meredith Raman,Female,2018,London
+11382,Edward,Patterson,Edward Patterson,Male,2019,Roubaix
+11383,Marie,Gill,Marie Gill,Female,2021,Roissy en Brie
+11384,Tiffany,Wang,Tiffany Wang,Female,2020,Les Ulis
+11385,Miguel,Allen,Miguel Allen,Male,2020,York
+11386,Jaclyn,Cai,Jaclyn Cai,Female,2020,Darmstadt
+11387,Megan,Ramirez,Megan Ramirez,Female,2018,Gateshead
+11388,Joseph,Martin,Joseph Martin,Male,2018,York
+11389,Karl,Shan,Karl Shan,Male,2020,Duesseldorf
+11390,Christine,Raji,Christine Raji,Female,2020,Saint Germain en Laye
+11391,Lindsay,Xie,Lindsay Xie,Female,2020,Salzgitter
+11392,Willie,Zhao,Willie Zhao,Male,2020,Frankfurt
+11393,Kurt,Pal,Kurt Pal,Male,2020,Saint Ouen
+11394,George,McDonald,George McDonald,Male,2018,Milton Keynes
+11395,Beth,Gutierrez,Beth Gutierrez,Female,2018,Frankfurt
+11396,Ian,Lopez,Ian Lopez,Male,2020,Saarlouis
+11397,Latoya,Shan,Latoya Shan,Female,2020,Paris
+11398,Colin,Nath,Colin Nath,Male,2018,Newcastle upon Tyne
+11399,Brenda,Mehta,Brenda Mehta,Female,2020,Paris
+11400,Franklin,Raji,Franklin Raji,Male,2018,London
+11401,Linda,Navarro,Linda Navarro,Female,2019,Paris
+11402,Kelli,Cai,Kelli Cai,Female,2019,Orleans
+11403,Nancy,Schmidt,Nancy Schmidt,Female,2019,Saint Ouen
+11404,Megan,Taylor,Megan Taylor,Female,2020,Kassel
+11405,Bonnie,Goel,Bonnie Goel,Female,2020,Bonn
+11406,Latoya,Xu,Latoya Xu,Female,2019,Paris
+11407,Mario,She,Mario She,Male,2020,Münster
+11408,Darren,Gill,Darren Gill,Male,2020,London
+11409,Jacqueline,Hayes,Jacqueline Hayes,Female,2019,Saint Germain en Laye
+11410,Maurice,Goel,Maurice Goel,Male,2019,Paris
+11411,Devin,Ross,Devin Ross,Male,2020,Ingolstadt
+11412,Sydney,Bryant,Sydney Bryant,Female,2018,Ingolstadt
+11413,Megan,Stewart,Megan Stewart,Female,2018,Gateshead
+11414,Ian,Richardson,Ian Richardson,Male,2018,Kirkby
+11415,Randy,She,Randy She,Male,2020,Darmstadt
+11416,Katrina,Becker,Katrina Becker,Female,2019,Croix
+11417,Lacey,Zheng,Lacey Zheng,Female,2019,Pantin
+11418,Rafael,Hu,Rafael Hu,Male,2020,Paderborn
+11419,Kyle,Scott,Kyle Scott,Male,2020,Watford
+11420,Jordan,Turner,Jordan Turner,Male,2019,Roubaix
+11421,Amy,Sun,Amy Sun,Female,2018,Offenbach
+11422,Dustin,Deng,Dustin Deng,Male,2018,Liverpool
+11423,Jasmine,Stewart,Jasmine Stewart,Female,2018,Hamburg
+11424,Pamela,Garcia,Pamela Garcia,Female,2020,Berlin
+11425,Ariana,Gray,Ariana Gray,Female,2019,Metz
+11426,Kristopher,Mehta,Kristopher Mehta,Male,2020,Braunschweig
+11427,Desiree,Dominguez,Desiree Dominguez,Female,2018,Kiel
+11428,Deanna,Perez,Deanna Perez,Female,2018,Poing
+11429,Marco,Lopez,Marco Lopez,Male,2019,Sèvres
+11430,Casey,Yuan,Casey Yuan,Female,2020,Bottrop
+11431,Bryant,Garcia,Bryant Garcia,Male,2018,Hof
+11432,Dominique,Prasad,Dominique Prasad,Female,2019,Roissy en Brie
+11433,Maurice,Shan,Maurice Shan,Male,2019,Tremblay-en-France
+11434,Andre,Lopez,Andre Lopez,Male,2020,West Sussex
+11435,Robin,Romero,Robin Romero,Female,2021,Kiel
+11436,Taylor,Cox,Taylor Cox,Female,2020,Watford
+11437,Alfredo,Moreno,Alfredo Moreno,Male,2020,Villeneuve-d'Ascq
+11438,Jenny,Nara,Jenny Nara,Female,2020,Werne
+11439,Janet,Munoz,Janet Munoz,Female,2019,Paris La Defense
+11440,Sergio,Weber,Sergio Weber,Male,2020,Lille
+11441,Erika,Gomez,Erika Gomez,Female,2021,Paris
+11442,Joseph,Harris,Joseph Harris,Male,2020,Tremblay-en-France
+11443,Grace,Griffin,Grace Griffin,Female,2018,Hobart
+11444,Tina,Mehta,Tina Mehta,Female,2018,Bendigo
+11445,Kari,Kim,Kari Kim,Female,2018,Silverwater
+11446,Bethany,Chander,Bethany Chander,Female,2018,Lane Cove
+11447,Jennifer,Roberts,Jennifer Roberts,Female,2018,Hervey Bay
+11448,Kyle,Patterson,Kyle Patterson,Male,2018,Melbourne
+11449,Alvin,Hu,Alvin Hu,Male,2018,Seaford
+11450,Brett,Mehta,Brett Mehta,Male,2018,Cloverdale
+11451,Ruben,Muñoz,Ruben Muñoz,Male,2018,Newcastle
+11452,Erika,Rubio,Erika Rubio,Female,2018,Caloundra
+11453,Stanley,Malhotra,Stanley Malhotra,Male,2018,Hobart
+11454,Melinda,Navarro,Melinda Navarro,Female,2018,Melbourne
+11455,Ross,Sanz,Ross Sanz,Male,2018,Melton
+11456,Jon,Gao,Jon Gao,Male,2018,St. Leonards
+11457,Jaime,Gutierrez,Jaime Gutierrez,Female,2018,Wollongong
+11458,Bianca,Liu,Bianca Liu,Female,2020,Springwood
+11459,Tasha,Deng,Tasha Deng,Female,2018,Port Macquarie
+11460,Melvin,Chande,Melvin Chande,Male,2018,Cranbourne
+11461,Victor,Jimenez,Victor Jimenez,Male,2018,Lavender Bay
+11462,Laura,Lin,Laura Lin,Female,2018,Matraville
+11463,Alisha,Beck,Alisha Beck,Female,2020,Cloverdale
+11464,Alejandro,Huang,Alejandro Huang,Male,2018,South Melbourne
+11465,Louis,Luo,Louis Luo,Male,2018,Gold Coast
+11466,Grant,Tang,Grant Tang,Male,2020,Lavender Bay
+11467,Arturo,Zheng,Arturo Zheng,Male,2020,St. Leonards
+11468,Jaclyn,Andersen,Jaclyn Andersen,Female,2018,York
+11469,Edwin,Raji,Edwin Raji,Male,2020,York
+11470,Jay,Suarez,Jay Suarez,Male,2019,Stuttgart
+11471,Latasha,Suarez,Latasha Suarez,Female,2020,Chatou
+11472,Kenneth,Kumar,Kenneth Kumar,Male,2018,Hawthorne
+11473,Grace,Henderson,Grace Henderson,Female,2020,Drancy
+11474,Melvin,Xu,Melvin Xu,Male,2020,Peterborough
+11475,Cesar,Subram,Cesar Subram,Male,2020,London
+11476,Erika,Navarro,Erika Navarro,Female,2020,Kirkby
+11477,Tristan,Hughes,Tristan Hughes,Male,2020,Darmstadt
+11478,Billy,Hernandez,Billy Hernandez,Male,2020,Sèvres
+11479,Darryl,Wu,Darryl Wu,Male,2019,Saint Ouen
+11480,Colleen,Ma,Colleen Ma,Female,2019,Tremblay-en-France
+11481,Erica,Hu,Erica Hu,Female,2019,Braunschweig
+11482,Adrienne,Torres,Adrienne Torres,Female,2018,Warrington
+11483,Calvin,Chande,Calvin Chande,Male,2019,Paris
+11484,Erick,Sai,Erick Sai,Male,2019,Neunkirchen
+11485,Donald,Chandra,Donald Chandra,Male,2018,Esher-Molesey
+11486,Ariana,Rogers,Ariana Rogers,Female,2020,Erlangen
+11487,Morgan,Jones,Morgan Jones,Female,2020,Dunkerque
+11488,Jermaine,Lopez,Jermaine Lopez,Male,2018,London
+11489,Deborah,Goel,Deborah Goel,Female,2018,Oxford
+11490,Danny,Rubio,Danny Rubio,Male,2020,Paris La Defense
+11491,Andre,Perez,Andre Perez,Male,2018,London
+11492,Terrence,Chander,Terrence Chander,Male,2019,Eilenburg
+11493,Dawn,Wu,Dawn Wu,Female,2018,London
+11494,Jimmy,Gutierrez,Jimmy Gutierrez,Male,2018,Runcorn
+11495,Francis,Jimenez,Francis Jimenez,Male,2020,Bonn
+11496,Gary,Ortega,Gary Ortega,Male,2018,Warrington
+11497,Katrina,Nath,Katrina Nath,Female,2020,Newcastle upon Tyne
+11498,Arturo,Sun,Arturo Sun,Male,2020,Cliffside
+11499,Pedro,Vance,Pedro Vance,Male,2020,Concord
+11500,Sarah,Simmons,Sarah Simmons,Female,2020,Langley
+11501,Brandy,Chandra,Brandy Chandra,Female,2020,Cliffside
+11502,Jared,Peterson,Jared Peterson,Male,2020,Shawnee
+11503,Dennis,Wu,Dennis Wu,Male,2020,Coronado
+11504,Jordan,Baker,Jordan Baker,Female,2020,Downey
+11505,Jasmine,Powell,Jasmine Powell,Female,2020,Burnaby
+11506,Nicholas,Brown,Nicholas Brown,Male,2020,Port Hammond
+11507,Isabella,Russell,Isabella Russell,Female,2020,Victoria
+11508,Elizabeth,Wilson,Elizabeth Wilson,Female,2020,Lynnwood
+11509,Roger,Harui,Roger Harui,Female,2020,Novato
+11510,Seth,Roberts,Seth Roberts,Male,2020,N. Vancouver
+11511,Caleb,Perry,Caleb Perry,Male,2020,Lebanon
+11512,Natalie,Campbell,Natalie Campbell,Female,2020,Oak Bay
+11513,Alyssa,Howard,Alyssa Howard,Female,2020,Royal Oak
+11514,Dalton,Diaz,Dalton Diaz,Male,2020,Tacoma
+11515,Shannon,Huang,Shannon Huang,Female,2018,Burbank
+11516,Mya,Gonzales,Mya Gonzales,Female,2018,Colma
+11517,Katherine,Bryant,Katherine Bryant,Female,2020,Redwood City
+11518,Edward,Washington,Edward Washington,Male,2020,Milwaukie
+11519,Jerome,Navarro,Jerome Navarro,Male,2020,Cliffside
+11520,Jada,Morgan,Jada Morgan,Female,2020,Port Hammond
+11521,Ariana,Peterson,Ariana Peterson,Female,2020,Walla Walla
+11522,Christian,Hughes,Christian Hughes,Male,2018,Oregon City
+11523,Lucas,Taylor,Lucas Taylor,Male,2020,N. Vancouver
+11524,Alyssa,Jackson,Alyssa Jackson,Female,2020,Torrance
+11525,Ariana,Cook,Ariana Cook,Female,2018,Lebanon
+11526,Katherine,Diaz,Katherine Diaz,Female,2020,Westminster
+11527,Jenna,Green,Jenna Green,Female,2020,San Gabriel
+11528,Joan,Washington,Joan Washington,Female,2018,Glendale
+11529,Austin,Bryant,Austin Bryant,Male,2018,Portland
+11530,Andrew,Martinez,Andrew Martinez,Male,2020,N. Vancouver
+11531,Nina,Yuan,Nina Yuan,Female,2018,Beverly Hills
+11532,Lauren,Miller,Lauren Miller,Female,2020,Redmond
+11533,Ebony,Gill,Ebony Gill,Female,2020,Birmingham
+11534,Cameron,Lewis,Cameron Lewis,Male,2018,Long Beach
+11535,Devin,Nelson,Devin Nelson,Male,2018,Lebanon
+11536,Logan,Chow,Logan Chow,Male,2018,Fremont
+11537,Dakota,Ross,Dakota Ross,Male,2018,Colma
+11538,Nicole,Taylor,Nicole Taylor,Female,2018,Palo Alto
+11539,Justin,Washington,Justin Washington,Male,2018,Concord
+11540,Alberto,Navarro,Alberto Navarro,Male,2018,Coronado
+11541,Aidan,Ross,Aidan Ross,Male,2018,Portland
+11542,Alejandro,Tang,Alejandro Tang,Male,2020,York
+11543,Sheena,Chande,Sheena Chande,Female,2020,Paris
+11544,Joel,Garcia,Joel Garcia,Male,2020,Darmstadt
+11545,Reginald,Dominguez,Reginald Dominguez,Male,2020,Paris
+11546,Christine,Chande,Christine Chande,Female,2019,Roubaix
+11547,Cindy,Sai,Cindy Sai,Female,2019,Paris
+11548,Raymond,Sanchez,Raymond Sanchez,Male,2018,Berkshire
+11549,Crystal,Liang,Crystal Liang,Female,2018,London
+11550,Deb,Torres,Deb Torres,Female,2019,Oxford
+11551,Shannon,Alvarez,Shannon Alvarez,Male,2020,Colombes
+11552,Eddie,Rubio,Eddie Rubio,Male,2021,Salzgitter
+11553,Sharon,Luo,Sharon Luo,Female,2020,Reading
+11554,Sydney,Simmons,Sydney Simmons,Female,2020,Tremblay-en-France
+11555,Alexandria,Henderson,Alexandria Henderson,Female,2020,Esher-Molesey
+11556,Lucas,Evans,Lucas Evans,Male,2020,Warrington
+11557,Felicia,Ramos,Felicia Ramos,Female,2020,York
+11558,Ivan,Malhotra,Ivan Malhotra,Male,2020,Woolston
+11559,Frederick,Subram,Frederick Subram,Male,2020,Solingen
+11560,Whitney,Srini,Whitney Srini,Female,2020,London
+11561,Briana,Dominguez,Briana Dominguez,Female,2019,München
+11562,Jarrod,Gonzalez,Jarrod Gonzalez,Male,2020,Leipzig
+11563,Cesar,Srini,Cesar Srini,Male,2020,London
+11564,Jorge,Liang,Jorge Liang,Male,2019,Frankfurt am Main
+11565,Erik,Diaz,Erik Diaz,Male,2020,Berks
+11566,April,Shan,April Shan,Female,2020,Cergy
+11567,Carla,Perez,Carla Perez,Female,2020,Berlin
+11568,Alexia,Foster,Alexia Foster,Female,2019,Cheltenham
+11569,Troy,Malhotra,Troy Malhotra,Male,2020,West Sussex
+11570,Kristin,Andersen,Kristin Andersen,Female,2019,Berlin
+11571,Joel,Sai,Joel Sai,Male,2019,Orleans
+11572,Billy,Moreno,Billy Moreno,Male,2019,Dunkerque
+11573,Meagan,Subram,Meagan Subram,Female,2020,Woolston
+11574,Karla,Luo,Karla Luo,Female,2020,West Sussex
+11575,Jackson,Campbell,Jackson Campbell,Male,2019,Leeds
+11576,Micah,Zhu,Micah Zhu,Male,2019,Croix
+11577,Janet,Serrano,Janet Serrano,Female,2019,Paris
+11578,Trisha,Huang,Trisha Huang,Female,2019,Pantin
+11579,Clayton,Beck,Clayton Beck,Male,2020,Warrington
+11580,Melvin,Raje,Melvin Raje,Male,2020,Berkshire
+11581,Cindy,Jordan,Cindy Jordan,Female,2020,Paris
+11582,Claudia,Ma,Claudia Ma,Female,2019,Pantin
+11583,Karla,Xu,Karla Xu,Female,2019,Chatou
+11584,Devin,Carter,Devin Carter,Male,2020,Neunkirchen
+11585,Kari,Perez,Kari Perez,Female,2021,Billericay
+11586,Alberto,Romero,Alberto Romero,Male,2020,York
+11587,Kevin,Bryant,Kevin Bryant,Male,2019,Metz
+11588,Candace,Mehta,Candace Mehta,Female,2019,Saint-Denis
+11589,Ebony,Malhotra,Ebony Malhotra,Female,2020,London
+11590,Erika,Diaz,Erika Diaz,Female,2019,Drancy
+11591,Stacey,Lu,Stacey Lu,Female,2018,Versailles
+11592,Darrell,Raji,Darrell Raji,Male,2018,Paris
+11593,Armando,Moreno,Armando Moreno,Male,2018,Orleans
+11594,Corey,Goel,Corey Goel,Male,2020,Verrieres Le Buisson
+11595,Sebastian,Howard,Sebastian Howard,Male,2020,Erlangen
+11596,Roger,Raje,Roger Raje,Male,2020,Runcorn
+11597,Janelle,Chandra,Janelle Chandra,Female,2021,Orly
+11598,Meredith,Ruiz,Meredith Ruiz,Female,2019,Saarbrücken
+11599,Melody,Diaz,Melody Diaz,Female,2018,Les Ulis
+11600,Linda,Rubio,Linda Rubio,Female,2020,Sèvres
+11601,Ivan,Raman,Ivan Raman,Male,2018,Versailles
+11602,Larry,Gill,Larry Gill,Male,2020,Salzgitter
+11603,Geoffrey,Gonzalez,Geoffrey Gonzalez,Male,2019,London
+11604,Edgar,Sanchez,Edgar Sanchez,Male,2019,Wokingham
+11605,Heidi,Subram,Heidi Subram,Female,2019,Stuttgart
+11606,Melody,Ramos,Melody Ramos,Female,2018,Morangis
+11607,Clinton,Moreno,Clinton Moreno,Male,2018,Paris
+11608,Cesar,Madan,Cesar Madan,Male,2020,Paris La Defense
+11609,Eugene,Ye,Eugene Ye,Male,2019,York
+11610,Blake,Collins,Blake Collins,Male,2019,Stoke-on-Trent
+11611,Ernest,Lin,Ernest Lin,Male,2018,Orleans
+11612,Keith,Andersen,Keith Andersen,Male,2019,Berkshire
+11613,Meredith,Prasad,Meredith Prasad,Female,2019,Leipzig
+11614,Katrina,Sharma,Katrina Sharma,Female,2019,Offenbach
+11615,Dwayne,Navarro,Dwayne Navarro,Male,2019,Lancaster
+11616,Casey,Nath,Casey Nath,Female,2019,Milton Keynes
+11617,Sean,Brooks,Sean Brooks,Male,2018,Grossmont
+11618,Brian,Ramirez,Brian Ramirez,Male,2020,Cliffside
+11619,Sierra,Young,Sierra Young,Female,2020,Victoria
+11620,Megan,Rodriguez,Megan Rodriguez,Female,2020,Bellingham
+11621,Leah,She,Leah She,Female,2020,Bremerton
+11622,Gabriel,Allen,Gabriel Allen,Male,2020,Kirkland
+11623,Angela,Perry,Angela Perry,Female,2018,Fremont
+11624,Ryan,Smith,Ryan Smith,Male,2018,Mill Valley
+11625,Zachary,Moore,Zachary Moore,Male,2018,Palo Alto
+11626,Destiny,Rogers,Destiny Rogers,Female,2018,San Francisco
+11627,Dalton,Gray,Dalton Gray,Male,2020,Spring Valley
+11628,Mariah,Wood,Mariah Wood,Female,2018,Bellflower
+11629,Isaiah,Wright,Isaiah Wright,Male,2018,Newport Beach
+11630,Haley,Powell,Haley Powell,Female,2018,Seattle
+11631,Antonio,Bennett,Antonio Bennett,Male,2020,Langley
+11632,Alexandra,Jenkins,Alexandra Jenkins,Female,2020,Langford
+11633,Thomas,Anderson,Thomas Anderson,Male,2020,Burien
+11634,Samuel,Collins,Samuel Collins,Male,2020,Puyallup
+11635,Darrell,Chande,Darrell Chande,Male,2020,Beverly Hills
+11636,Kimberly,Cox,Kimberly Cox,Female,2020,Daly City
+11637,Morgan,Hernandez,Morgan Hernandez,Female,2020,Los Angeles
+11638,Antonio,Powell,Antonio Powell,Male,2020,Mill Valley
+11639,Angelica,Perry,Angelica Perry,Female,2020,Mill Valley
+11640,Chloe,Wilson,Chloe Wilson,Female,2020,Langford
+11641,James,Chen,James Chen,Male,2020,Cliffside
+11642,Morgan,Hughes,Morgan Hughes,Female,2020,Oak Bay
+11643,Naomi,Munoz,Naomi Munoz,Female,2020,Burien
+11644,Charles,Torres,Charles Torres,Male,2020,Redmond
+11645,Gabriella,Turner,Gabriella Turner,Female,2020,Salem
+11646,Anna,Foster,Anna Foster,Female,2020,Burien
+11647,Randy,Wu,Randy Wu,Male,2020,Cliffside
+11648,Kevin,Scott,Kevin Scott,Male,2020,Chula Vista
+11649,Ian,White,Ian White,Male,2020,Newport Beach
+11650,Caleb,Hayes,Caleb Hayes,Male,2020,Glendale
+11651,Patricia,Garcia,Patricia Garcia,Female,2020,Cliffside
+11652,Samuel,Russell,Samuel Russell,Male,2020,Vancouver
+11653,Sydney,Peterson,Sydney Peterson,Female,2020,Lebanon
+11654,Ariana,Sanchez,Ariana Sanchez,Female,2018,Bellflower
+11655,Tamara,Sharma,Tamara Sharma,Female,2020,Concord
+11656,Katelyn,Perez,Katelyn Perez,Female,2020,Imperial Beach
+11657,Megan,Cox,Megan Cox,Female,2020,Novato
+11658,Robert,Mitchell,Robert Mitchell,Male,2020,Oakland
+11659,Miguel,Adams,Miguel Adams,Male,2020,Sooke
+11660,Miranda,Gonzales,Miranda Gonzales,Female,2020,Port Hammond
+11661,Jeremiah,James,Jeremiah James,Male,2020,Cliffside
+11662,Ethan,Kumar,Ethan Kumar,Male,2020,Milwaukie
+11663,Seth,Williams,Seth Williams,Male,2018,Walla Walla
+11664,Alyssa,Morgan,Alyssa Morgan,Female,2018,Burlingame
+11665,Janet,Dominguez,Janet Dominguez,Female,2018,Chula Vista
+11666,Angel,Baker,Angel Baker,Male,2018,Torrance
+11667,Blake,Moore,Blake Moore,Male,2020,Walla Walla
+11668,Jada,Collins,Jada Collins,Female,2020,Beverly Hills
+11669,Isabella,Simmons,Isabella Simmons,Female,2020,Tacoma
+11670,Jacqueline,Perry,Jacqueline Perry,Female,2020,Grossmont
+11671,Jessica,Brown,Jessica Brown,Female,2018,El Cajon
+11672,Chad,Jai,Chad Jai,Male,2020,Beverly Hills
+11673,Susan,Ye,Susan Ye,Female,2020,Burien
+11674,Morgan,Rogers,Morgan Rogers,Female,2020,Woodland Hills
+11675,Devin,Martinez,Devin Martinez,Male,2018,Everett
+11676,Alan,Hu,Alan Hu,Male,2020,Branch
+11677,Charles,Walker,Charles Walker,Male,2020,Haney
+11678,Johnny,Chavez,Johnny Chavez,Male,2018,Cheyenne
+11679,Dalton,Richardson,Dalton Richardson,Male,2020,Puyallup
+11680,Kaylee,Nelson,Kaylee Nelson,Female,2020,Redmond
+11681,Abigail,Jones,Abigail Jones,Female,2020,Spokane
+11682,Kaitlyn,Hall,Kaitlyn Hall,Female,2020,Tacoma
+11683,Greg,Taylor,Greg Taylor,Male,2018,El Cajon
+11684,Devin,Parker,Devin Parker,Male,2020,Redmond
+11685,Jose,Griffin,Jose Griffin,Male,2020,Milwaukie
+11686,Luke,Edwards,Luke Edwards,Male,2020,Glendale
+11687,Cody,Torres,Cody Torres,Male,2020,La Jolla
+11688,Victoria,Morris,Victoria Morris,Female,2018,Sedro Woolley
+11689,Ian,Diaz,Ian Diaz,Male,2020,Edmonds
+11690,Caroline,Butler,Caroline Butler,Female,2018,Port Orchard
+11691,Kaitlyn,Wilson,Kaitlyn Wilson,Female,2020,Imperial Beach
+11692,Caleb,Gonzales,Caleb Gonzales,Male,2020,Burbank
