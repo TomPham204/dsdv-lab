@@ -11,8 +11,8 @@
 			content="width=device-width, initial-scale=1.0"
 		/>
 		<title>Project</title>
-		<!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
 		<script src="https://d3js.org/d3.v4.js"></script>
+		<!-- <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script> -->
 		<script src="https://cdn.tailwindcss.com"></script>
 		<style>
 			svg {
@@ -21,7 +21,7 @@
 		</style>
 	</head>
 	<body>
-		<div class="flex flex-col w-full h-[100vh]">
+		<div class="flex flex-col gap-4items-center w-full h-[100vh]">
 			<div
 				class="flex justify-end items-center w-full gap-4 p-3 border-b border-b-1 border-1-[#cbcbd4]"
 			>
@@ -43,109 +43,114 @@
 			</div>
 
 			<div
-				class="flex flex-wrap gap-2 justify-center w-full max-w-[1280px]"
+				class="flex flex-wrap gap-4 justify-center w-full max-w-[1280px]"
 			>
 				<div id="area"></div>
-				<script>
-					let totalofyear = {
-						2017: 0,
-						2018: 0,
-						2019: 0,
-						2020: 0,
-						2021: 0,
-					};
-					// set the dimensions and margins of the graph
-					var margin = { top: 10, right: 30, bottom: 30, left: 50 },
-						width = 460 - margin.left - margin.right,
-						height = 400 - margin.top - margin.bottom;
-
-					// append the svg object to the body of the page
-					var svg = d3
-						.select("#area")
-						.append("svg")
-						.attr("width", width + margin.left + margin.right)
-						.attr("height", height + margin.top + margin.bottom)
-						.append("g")
-						.attr(
-							"transform",
-							"translate(" + margin.left + "," + margin.top + ")"
-						);
-
-					//Read the data
-					d3.csv(
-						"customer.csv",
-						function (d) {
-							totalofyear[d.DateFirstPurchase] += 1;
-							console.log(totalofyear);
-							return totalofyear;
-						},
-						function (data) {
-							const x = d3
-								.scaleBand()
-								.range([0, width])
-								.domain(Object.keys(totalofyear))
-								.padding(0.1);
-
-							const y = d3
-								.scaleLinear()
-								.range([height, 0])
-								.domain([
-									0,
-									d3.max(Object.values(totalofyear)),
-								]);
-
-							const area = d3
-								.area()
-								.x((d) => x(d.year) + x.bandwidth() / 2)
-								.y0(height)
-								.y1((d) => y(d.total));
-
-							svg.append("path")
-								.datum(
-									Object.entries(totalofyear).map(
-										([year, total]) => ({ year, total })
-									)
-								)
-								.attr("fill", "gray")
-								.attr("stroke", "#69b3a2")
-								.attr("d", area)
-								.attr(
-									"d",
-									d3
-										.line()
-										.x((d) => x(d.year) + x.bandwidth() / 2)
-										.y((d) => y(d.total))
-								);
-
-							svg.append("g")
-								.attr(
-									"transform",
-									"translate(0," + height + ")"
-								)
-								.call(d3.axisBottom(x));
-
-							svg.append("g").call(d3.axisLeft(y));
-
-							svg.selectAll("myCircles")
-								.data(
-									Object.entries(totalofyear).map(
-										([year, total]) => ({ year, total })
-									)
-								)
-								.enter()
-								.append("circle")
-								.attr("fill", "red")
-								.attr("stroke", "none")
-								.attr(
-									"cx",
-									(d) => x(d.year) + x.bandwidth() / 2
-								)
-								.attr("cy", (d) => y(d.total))
-								.attr("r", 3);
-						}
-					);
-				</script>
+				<p class="text-gray text-lg w-2/5 p-3">
+					The chart shows information about the growth of
+					customer-base over the period of 2015 - 2022 of a fictional
+					bike company. The data is taken from Microsoft's
+					AdventureWorks dataset. </br></br> The statistic experienced a sharp
+					increase from 2017 to 2018 and fluctuated greatly after
+					that, then went down steeply in 2020.
+				</p>
+				
+			</div>
+			<div class="flex flex-col gap-4 items-center">
+				<!-- <div id="column"></div> -->
+				<p>The bar chart shows insights about the top 5 cities which host the most customers.</p>
 			</div>
 		</div>
+		<script>
+			let totalofyear = {
+				2017: 0,
+				2018: 0,
+				2019: 0,
+				2020: 0,
+				2021: 0
+			};
+			// set the dimensions and margins of the graph
+			var margin = { top: 10, right: 30, bottom: 30, left: 50 },
+				width = 460 - margin.left - margin.right,
+				height = 400 - margin.top - margin.bottom;
+
+			// append the svg object to the body of the page
+			var svg = d3
+				.select("#area")
+				.append("svg")
+				.attr("width", width + margin.left + margin.right)
+				.attr("height", height + margin.top + margin.bottom)
+				.append("g")
+				.attr(
+					"transform",
+					"translate(" + margin.left + "," + margin.top + ")"
+				);
+
+			//Read the data
+			d3.csv(
+				"customer.csv",
+				function (d) {
+					totalofyear[d.DateFirstPurchase.split('/').slice(-1)[0]] += 1;
+					return totalofyear
+				},
+				function (data) {
+					console.log(data)
+					const x = d3
+						.scaleBand()
+						.range([0, width])
+						.domain(Object.keys(totalofyear))
+						.padding(0.1);
+
+					const y = d3
+						.scaleLinear()
+						.range([height, 0])
+						.domain([0, d3.max(Object.values(totalofyear))]);
+
+					const area = d3
+						.area()
+						.x((d) => x(d.year) + x.bandwidth() / 2)
+						.y0(height)
+						.y1((d) => y(d.total));
+
+					svg.append("path")
+						.datum(
+							Object.entries(totalofyear).map(
+								([year, total]) => ({ year, total })
+							)
+						)
+						.attr("fill", "#cbcbd4")
+						.attr("stroke", "#69b3a2")
+						.attr("d", area)
+						.attr(
+							"d",
+							d3
+								.line()
+								.x((d) => x(d.year) + x.bandwidth() / 2)
+								.y((d) => y(d.total))
+						);
+
+					svg.append("g")
+						.attr("transform", "translate(0," + height + ")")
+						.call(d3.axisBottom(x));
+
+					svg.append("g").call(d3.axisLeft(y));
+
+					svg.selectAll("myCircles")
+						.data(
+							Object.entries(totalofyear).map(
+								([year, total]) => ({ year, total })
+							)
+						)
+						.enter()
+						.append("circle")
+						.attr("fill", "red")
+						.attr("stroke", "none")
+						.attr("cx", (d) => x(d.year) + x.bandwidth() / 2)
+						.attr("cy", (d) => y(d.total))
+						.attr("r", 3);
+				}
+			);
+
+		</script>
 	</body>
 </html>
