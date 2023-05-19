@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab 6</title>
+		<script src="https://d3js.org/d3.v7.min.js"></script>
+		<script
+			type="text/javascript"
+			src=".\lab06.js"
+		></script>
+	</head>
+
+	<body>
+		<h3>Phạm Công Tuấn</h3>
+		<h4>Student ID: ITITIU19060</h4>
+		<h4>Data Science and Data Visualization</h4>
+		<h4>Lab 6 – D3.js - Line and stacked area chart</h4>
+		<p>
+			This is all my own work. I did not copy the code from any other
+			source
+		</p>
+		<br />
+
+		<svg
+			id="chart"
+			width="870"
+			height="580"
+		></svg>
+		<script>
+			function ExtractProperty(data, property) {
+				return Object.getOwnPropertyDescriptor(data, property).value;
+			}
+
+			function ConvertDate(html_date) {
+				var date = new Date(html_date);
+				var month = date.getMonth() + 1;
+				var day = date.getDate();
+				var year = date.getFullYear();
+				var year = year.toString();
+
+				return date;
+			}
+
+			function rowConverter(source) {
+				var result = {
+					Country: ExtractProperty(source, "Country"),
+					Date: ConvertDate(ExtractProperty(source, "Date")),
+					Cases: parseInt(ExtractProperty(source, "Cases")),
+				};
+				return result;
+			}
+
+			function DrawChart(source) {
+				drawChart("#chart", source);
+			}
+
+			let csv_file = "./covid-data-v6.csv";
+			var record = d3.csv(csv_file, rowConverter).then((data) => {
+				DrawChart(data);
+			});
+		</script>
+		<br />
+	</body>
+</html>

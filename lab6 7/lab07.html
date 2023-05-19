@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab 7</title>
+    <!-- <link rel="stylesheet" type="text/css" href=".\index.css"> -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script type="text/javascript" src=".\lab07.js"></script>
+</head>
+
+<body>
+    <h3>Phạm Hoàng Minh</h3>
+    <h4>Student ID: ITITIU19031</h4>
+    <h4>Data Science and Data Visualization</h4>
+    <h4>Lab 7 – D3.js - GeoMapping</h4>
+    <p>This is all my own work. I did not copy the code from any other source</p>
+
+    <!-- 
+        Use the following data
+    -	Geo-map of all Vietnamese provinces https://raw.githubusercontent.com/TungTh/tungth.github.io/master/data/vn-provinces.json
+    -	Vietnamese data by provinces https://raw.githubusercontent.com/TungTh/tungth.github.io/master/data/vn-provinces-data.csv
+    
+    1.	Draw a choropleth of Vietnam (using one of the attributes on the dataset)
+    2.	Follow instruction in https://stackoverflow.com/questions/14492284/center-a-map-in-d3-given-a-geojson-object to center the map
+    3.	Draw a choropleth map of Vietnam for COVID confirmed cases by provinces using data from https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_d%E1%BB%8Bch_COVID-19_t%E1%BA%A1i_Vi%E1%BB%87t_Nam
+    4.	(Optional) Implement zoom to bounding box of a province on click
+    https://observablehq.com/@d3/zoom-to-bounding-box
+    -->
+
+    <br>
+    <p> 
+        This is a choropleth of Vietnam
+        <ul>
+            <li> Draw a map >> DONE </li>
+            <li> Center the map >> DONE </li>
+            <li> Draw a choropleth map of Vietnam for COVID confirmed cases by provinces </li>
+            <li> Implement zoom to bounding box of a province on click >> 
+                <b> Unable to find reference and implementation for d3.v7.js </b> </li>
+        </ul>
+    </p>
+    <br>
+
+    <svg id="chart" width="870" height="580">
+
+    </svg>
+    <script>
+        // Function to extract the value of a property from an object
+        function ExtractProperty(data, property) {
+            return Object.getOwnPropertyDescriptor(data, property).value;
+        }
+
+        function ConvertDate(html_date) {
+            // We need to convert yyyy-mm-dd to mm/dd/yyyy
+            var date = new Date(html_date);
+            var month = date.getMonth() + 1;
+            var day = date.getDate();
+            var year = date.getFullYear();
+
+            // if (month < 10) month = "0" + month;
+            // if (day < 10) day = "0" + day;
+            var year = year.toString();
+
+            return date; // month + "/" + day + "/" + year;
+        }
+
+        // Drawing Function
+        function rowConverter(source) {
+            var result = {
+                Cases : parseInt(ExtractProperty(source, "NumAffected")),
+                Province : ExtractProperty(source, "Provinces"),
+            }
+
+            return result;
+        }
+
+        function jsonConverter(src) {
+            return src;
+        }
+
+        function DrawChart(source) {
+            drawChart("#chart", source);
+        }
+        
+        // Install Live Server extension for local csv reading to avoid CORS policy
+        
+        // --------------------------------------------------       
+        let json_file = "https://raw.githubusercontent.com/TungTh/tungth.github.io/master/data/vn-provinces.json"
+        let csv_file = "https://raw.githubusercontent.com/TungTh/tungth.github.io/master/data/vn-provinces-data.csv"
+        let covid_file = "https://gist.githubusercontent.com/IchiruTake/0c4c6f8f52ea9ce10f3967783baab10b/raw/eb94777cfce061b2f2cb108764544eadd9c46bd6/covid19-by-provinces-vn-v1.csv"
+
+        var margin = { top: 50, right: 100, bottom: 50, left: 50 };
+	    var width = 720;
+	    var height = 480;
+
+	    // Create the svg element
+        let full_width = width + margin.left + margin.right;
+        let full_height = height + margin.top + margin.bottom;
+
+	    var svg = d3.select("#chart")
+		    .append("svg")
+		    .attr("width", full_width)
+		    .attr("height", full_height);
+
+
+        console.log("JSON file: " + json_file);
+        d3.json(json_file, jsonConverter).then((function(json, json_vn) {
+            // Check if data is loaded
+            console.log(json.features);
+            console.log(json.features[0].properties.Ten);
+
+            // Now I need to add one property from covid_file to json where the json.features[].properties.Ten == covid_file[].Provinces
+            d3.csv(covid_file, rowConverter).then((function(covid) {
+                // Check if data is loaded
+                console.log(covid);
+                console.log(covid[0].Province);
+                console.log(covid[0].Cases);
+
+                // Now I need to add one property from covid_file to json where the 
+                // covid_file[].Provinces is a subset of json.features[].properties.Ten
+                for (let i = 0; i < json.features.length; i++) {
+                    for (let j = 0; j < covid.length; j++) {
+                        if (json.features[i].properties.Ten.includes(covid[j].Province)) {
+                            // If the name is "Thanh pho Ha Noi", we need to update the name to "Thành phố Hà Nội"
+                            // In covid_file, its name is "Hà Nội" so we need to update the name to match
+                            // 1) Replace the "Ha Noi" in json to "Hà Nội"
+                            // 2) Use rule-based for name update: "Tinh" -> "Tinh ", and "Thanh pho" -> "Thành phố"
+                            json.features[i].properties.Cases = covid[j].Cases;
+
+                            // Update the name
+                            let name = json.features[i].properties.Ten;
+                            var index = json.features[i].properties.Ten.indexOf(covid[j].Province);
+                            name = name.substring(0, index) + covid[j].Province + name.substring(index + covid[j].Province.length, name.length);
+
+                            // Now we need to update the name syntax as in step 2)
+                            if (name.includes("Thanh pho")) {
+                                name = name.replace("Thanh pho", "Thành phố");
+                            } else if (name.includes("Tinh")) {
+                                name = name.replace("Tinh", "Tỉnh");
+                            } else if (name.includes("Thu do")) {
+                                name = name.replace("Thu do", "Thủ đô");
+                            }
+
+                            json.features[i].properties.Ten = name;
+                            
+                            break;
+                        }
+                    }
+                }
+
+                // Check if data can be found
+                console.log(json.features[0].properties.Cases);
+                console.log(json.features[0].properties.Ten);
+
+                // Draw the map
+                drawChart("#chart", json, json_vn);
+            }));
+
+            // Review the first guess of the data projection
+            // drawChart("#chart", json);
+        }));
+        
+        
+        
+    </script>
+    <br>
+
+</body>
+
+</html>
